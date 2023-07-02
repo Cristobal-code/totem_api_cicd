@@ -9,28 +9,28 @@ const obtenerDocentes = function (req, res) {
 };
 const obtenerDocentesTest = function (req, res) {
   Docente.all({
-    attributes: ["nombre1"]
+    attributes: ["nombre"]
   }).then(docentes => {
     res.send(JSON.stringify(docentes));
   });
 };
 const obtenerDocentesTest1 = function (req, res) {
   Docente.all({
-    attributes: ["nombre2"]
+    attributes: ["nombre"]
   }).then(docentes => {
     res.send(JSON.stringify(docentes));
   });
 };
 const obtenerDocentesTest2 = function (req, res) {
   Docente.all({
-    attributes: ["nombre3"]
+    attributes: ["nombre"]
   }).then(docentes => {
     res.send(JSON.stringify(docentes));
   });
 };
 const obtenerDocentesTest3 = function (req, res) {
   Docente.all({
-    attributes: ["nombre4"]
+    attributes: ["nombre"]
   }).then(docentes => {
     res.send(JSON.stringify(docentes));
   });
