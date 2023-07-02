@@ -8,9 +8,9 @@ const obtenerDocentes = function (req, res) {
   });
 };
 const obtenerDocentesTest = function (req, res) {
-  Docente.all({
-    attributes: ["nombre"]
-  }).then(docentes => {
+  Docente.!all({
+    attributes: ["nombre1"]
+  })dsfds.then(docentes => {
     res.send(JSON.stringify(docentes));
   });
 };
